@@ -1,0 +1,190 @@
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: rgba(241, 240, 231, 0.82) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  width: 230px !important;
+  border-radius: 3px !important;
+}
+
+.popup-icon {
+  width: 30px;
+  height: auto;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.popup-forecast-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.place-name-heading {
+  display: inline;
+  margin: 0;
+  color: #555555;
+  border: 1px dotted blue;
+}
+
+.date-section {
+  font-size: 27px;
+  margin-bottom: 10px;
+  color: #804028;
+}
+
+.pair-wrapper {
+  display: flex;
+}
+
+.forecast-item {
+  margin: 0 0 10px 0;
+  width: 50%;
+  /* border: 1px solid gray; */
+}
+
+.caption {
+  display: inline;
+  color: #34515E;
+  font-weight: 600;
+  /* color: #2b2b2b; */
+  /* color: #34515e; */
+}
+
+.temp-section {
+  padding-top: 10px
+}
+
+.temp-caption {
+  font-size: 21px;
+}
+
+.clouds-section {
+  /* width: 45%; */
+}
+
+.clouds-icon {
+  margin-left: 25%;
+  width: 48px;
+}
+
+.clouds-caption {
+  display: inline-block;
+}
+
+.wind-section {
+  padding-top: 10px;
+}
+
+.wind-caption {
+  font-size: 17px;
+  /* color: #2b2b2b; */
+}
+
+.wind-direction-section {
+  position: relative;
+}
+
+.world-side-label {
+  position: absolute;
+  color: rgba(28, 40, 51, 0.7);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.north-label {
+  top: -3%;
+  left: 46%;
+}
+
+.east-label {
+  top: 47%;
+  left: 73%;
+}
+
+.south-label {
+  top: 99%;
+  left: 45%;
+}
+
+.west-label {
+  top: 47%;
+  left: 20%;
+}
+
+.wind-direction-area {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 3px solid rgba(0, 64, 85, 0.5);
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.wind-direction-arrow {
+  position: absolute;
+  top: -35px;
+  left: 6px;
+  font-size: 45px;
+  color: #34515E;
+}
+
+.wind-value-index {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  transform: rotate(-90deg);
+}
+
+.calm-state-icon {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.humidity-section {
+  padding-top: 10px;
+}
+
+.humidity-caption {
+  font-size: 17px;
+}
+
+.pressure-section {
+  padding-top: 10px;
+}
+
+.pressure-caption {
+  font-size: 17px;
+}
+
+.sunrise-section {
+
+}
+
+.sunset-section {
+
+}
+
+
+/* Forecast navigation section styles */
+.forecast-nav-section {
+  display: flex;
+}
+
+.forecast-nav-button {
+  width: 20%;
+  background-color: #CCDBDC;
+}
+
+.active {
+  width: 21%;
+  background-color: rgba(241, 240, 231, 0.82);
+  border: none;
+}

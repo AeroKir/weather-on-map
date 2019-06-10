@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#map {
+  /* width: 500px; */
+  height: 500px;
+}
+
+.find-city-input {
+  position: absolute;
+  left: 150px;
+  z-index: 999;
+}
+
+.find-button {
+  position: absolute;
+  left: 70px;
+  z-index: 999;
+}
+
+
+/* Styles for thumbnail marker */
+
+
+
+#json {
+  width: 500px;
+  height: 500px;
+}
+
+.obj-id {
+  color: brown;
+}
+
+/* .thermometer-icon,
+.clouds-icon,
+.wind-icon,
+.humidity-icon,
+.pressure-icon,
+.sunrise-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: bottom;
+  margin-left: 3px;
+} */
+
+/* .popup-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: bottom;
+  margin-left: 3px;
+}
+
+.popup-forecast-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.temp-section {
+  display: flex;
+  border: 1px solid gray;
+} */

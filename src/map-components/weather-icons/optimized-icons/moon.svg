@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 31">
+  <defs>
+    <linearGradient xlink:href="#a" id="b" x1="-49.719398" y1="1039.9491" x2="-39.537804" y2="1028.9425" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.61114 0 0 1.7578 47.024432 -775.7215)"/>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#708090" stop-opacity=".3937824"/>
+      <stop offset="1" stop-color="#708090"/>
+    </linearGradient>
+  </defs>
+  <circle transform="matrix(-1 0 0 1 0 -1021.3622)" cx="-24.047001" cy="1036.8447" r="15" fill="url(#b)"/>
+</svg>
