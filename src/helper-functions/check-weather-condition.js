@@ -1,12 +1,12 @@
 /**
-  * Weather condition checker
-  * Display different icons depending for weather conditions and time of the day
+  * Weather condition checker.
+  * Display different icons depending on weather conditions and time of day.
   * Based on three arguments:
-  * - conditionId (number which will be get in API response)
+  * - conditionId (the number that will be received in the API response).
   *   See details on https://openweathermap.org/weather-conditions
-  * - checkIsDayNow (boolean value, based on received time value)
-  * - iconElement (usually <img>  which assigned src attribute respectively)
-  * Returns src path to the icon which be required
+  * - checkIsDayNow (boolean value, based on the received time value)
+  * - iconElement (usually <img>  which is assigned the src attribute respectively).
+  * Returns the src path to the icon that is required.
   */
 function checkWeatherCondition(conditionId, checkIsDayNow, iconElement) {
   let src = iconElement;
