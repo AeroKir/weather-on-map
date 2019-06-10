@@ -4,6 +4,7 @@ import openStreetMap from '../map-components/tile-layers';
 import placeMarker from '../map-components/place-marker';
 import checkWeatherCondition from '../helper-functions/check-weather-condition';
 import toIntegerNumber from '../helper-functions/numbers';
+import { BASE_API_URL, APP_ID } from '../constants';
 // import thumbnailMarker from '../map-components/thumbnail-marker';
 
 // Test data file. Remove before production
@@ -41,7 +42,7 @@ const fetchRequest = fetch('http://api.ipstack.com/check?access_key=ae0911201b26
     // mapCenterCoordinates.push(myJson.longitude);
     const userCoordinates = new L.LatLng(myJson.latitude, myJson.longitude);
     console.log(userCoordinates);
-    
+
     // map.setView()
     // console.log(mapCenterCoordinates);
     console.log(JSON.stringify(myJson));
@@ -91,7 +92,7 @@ function getData(url) {
 
 // `http://api.openweathermap.org/data/2.5/box/city?bbox=23,46,39,52,${zoomLevelForRequest}&units=metric&lang=ua&APPID=863a0565129f6b0538ef1729aea12f4f`
 // 'http://api.openweathermap.org/data/2.5/box/city?bbox=23,46,39,52,7&units=metric&lang=ua&APPID=863a0565129f6b0538ef1729aea12f4f'
-getData('http://api.openweathermap.org/data/2.5/box/city?bbox=23,46,39,52,20&units=metric&lang=ua&APPID=863a0565129f6b0538ef1729aea12f4f')
+getData(`${BASE_API_URL}box/city?bbox=32,47,39,50,10&units=metric&lang=ua&${APP_ID}`)
   .then((resp) => {
     console.log(resp.list);
     // eslint-disable-next-line no-shadow
