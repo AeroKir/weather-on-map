@@ -12,7 +12,7 @@ body {
 
 #map {
   /* width: 500px; */
-  height: 500px;
+  height: 100vh;
 }
 
 .find-city-input {
