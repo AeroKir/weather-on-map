@@ -43,10 +43,10 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'postcss-loader'],
+        }),
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
@@ -96,6 +96,7 @@ module.exports = {
       hash: true,
       template: './src/index.html',
     }),
+    new ExtractTextPlugin({ filename: '[name].css' }),
     new webpack.HotModuleReplacementPlugin(),
     // Use NoErrorsPlugin for webpack 1.x
     new webpack.NoEmitOnErrorsPlugin(),
