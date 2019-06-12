@@ -12,7 +12,10 @@ import response from './test-current-weather-data.json';
 
 import elementCreator from '../helper-functions/element-creator';
 import {
-  getCurrentTime, getCurrentTimeInMs, getDayOfWeek, convertTimeToMs,
+  getCurrentTime,
+  getCurrentTimeInMs,
+  getDayOfWeek,
+  convertTimeToMs,
 } from '../helper-functions/get-date-time';
 import hpaToMillimeterOfMercury from '../helper-functions/pressure-converter';
 
