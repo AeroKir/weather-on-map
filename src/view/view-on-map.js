@@ -6,12 +6,7 @@ import { BASE_API_URL, APP_ID } from '../constants';
 import elementCreator from '../helper-functions/element-creator';
 import checkWeatherCondition from '../helper-functions/check-weather-condition';
 import toIntegerNumber from '../helper-functions/numbers';
-import {
-  getCurrentTime,
-  getCurrentTimeInMs,
-  getDayOfWeek,
-  convertTimeToMs,
-} from '../helper-functions/get-date-time';
+import { getCurrentTime, convertTimeToMs } from '../helper-functions/get-date-time';
 import hpaToMillimeterOfMercury from '../helper-functions/pressure-converter';
 
 import '../map-components/thumbnail-marker.css';
