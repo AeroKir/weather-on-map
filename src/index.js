@@ -1,3 +1,3 @@
-import weatherView from './view/view-on-map';
+import createMap from './map-components/init-map';
 
 import './main.css';
