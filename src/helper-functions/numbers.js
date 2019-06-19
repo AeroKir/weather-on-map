@@ -1,3 +1,8 @@
-const toIntegerNumber = number => number.toFixed(0);
+const toIntegerNumber = (number) => {
+  if (Number.isInteger(number)) {
+    return number;
+  }
+  return number.toFixed();
+};
 
 export default toIntegerNumber;
